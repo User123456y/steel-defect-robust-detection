@@ -1,0 +1,94 @@
+{
+  "task": "cross-category class-agnostic annotated-box localization ONLY",
+  "images": 2292,
+  "fixed_point": {
+    "tp": 61,
+    "fp": 961,
+    "fn": 3502,
+    "gt_count": 3563,
+    "prediction_count": 1022,
+    "precision": 0.05968688845401174,
+    "recall": 0.017120404153802976,
+    "f1": 0.026608505997818974
+  },
+  "per_source_class_recall": {
+    "crease": {
+      "matched": 1,
+      "gt": 74,
+      "recall": 0.013513513513513514
+    },
+    "crescent_gap": {
+      "matched": 21,
+      "gt": 265,
+      "recall": 0.07924528301886792
+    },
+    "inclusion": {
+      "matched": 1,
+      "gt": 347,
+      "recall": 0.002881844380403458
+    },
+    "oil_spot": {
+      "matched": 30,
+      "gt": 569,
+      "recall": 0.05272407732864675
+    },
+    "punching_hole": {
+      "matched": 0,
+      "gt": 329,
+      "recall": 0.0
+    },
+    "rolled_pit": {
+      "matched": 1,
+      "gt": 85,
+      "recall": 0.011764705882352941
+    },
+    "silk_spot": {
+      "matched": 3,
+      "gt": 884,
+      "recall": 0.003393665158371041
+    },
+    "waist folding": {
+      "matched": 0,
+      "gt": 143,
+      "recall": 0.0
+    },
+    "water_spot": {
+      "matched": 4,
+      "gt": 354,
+      "recall": 0.011299435028248588
+    },
+    "welding_line": {
+      "matched": 0,
+      "gt": 513,
+      "recall": 0.0
+    }
+  },
+  "relative_area_recall": {
+    "large": {
+      "matched": 16,
+      "gt": 1488,
+      "recall": 0.010752688172043012
+    },
+    "medium": {
+      "matched": 44,
+      "gt": 968,
+      "recall": 0.045454545454545456
+    },
+    "small": {
+      "matched": 1,
+      "gt": 1107,
+      "recall": 0.0009033423667570009
+    }
+  },
+  "failure_groups": {
+    "missed_zero_overlap": 3340,
+    "missed_overlap_below_0.5": 162
+  },
+  "example_selection": {
+    "missed": "img_01_3402617700_00001.jpg",
+    "unmatched_prediction": "img_01_3402617700_00001.jpg",
+    "matched": "img_01_425501900_00018.jpg"
+  },
+  "protocol_sha256": "98484828745613ce659d16b12503e4dd4cb6d878cc9ff30ca8fc274466fa1500",
+  "prediction_sha256": "d10130a9236ec4c54e9c055b34ca2971f3e65ea3e05120ec20bdfd4f84455f0f"
+}

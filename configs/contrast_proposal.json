@@ -1,0 +1,288 @@
+{
+  "status": "single_E2_proposal_not_implemented",
+  "baseline_evaluation": "reports/baseline_eval_v2",
+  "manifest_sha256": "259f88d234ba56078940d43c6e659c8ea7c6800b2133e2ef6ccebb3d26fd1982",
+  "baseline_predictions_sha256": "b3f77a7fc5edda9077ea51219d5c7f76b4f05779db6bdd19fb1c6ed6fdc5d383",
+  "train_threshold_unchanged": true,
+  "threshold": {
+    "value": 0.012512190872267038,
+    "rule": "train GT box pooled 25th percentile, linear interpolation; val low <= threshold",
+    "train_defined_boxes": 2952
+  },
+  "facts": {
+    "fixed_protocol": {
+      "imgsz": 320,
+      "confidence": 0.25,
+      "nms_iou": 0.7,
+      "match_iou": 0.5,
+      "preprocessing": "none"
+    },
+    "val_by_class": [
+      {
+        "class_id": 0,
+        "class_name": "crazing",
+        "band": "low",
+        "gt_boxes": 35,
+        "images": 27,
+        "evaluated_boxes": 35,
+        "false_negatives": 22,
+        "fn_fraction": 0.6285714285714286
+      },
+      {
+        "class_id": 0,
+        "class_name": "crazing",
+        "band": "other",
+        "gt_boxes": 74,
+        "images": 42,
+        "evaluated_boxes": 74,
+        "false_negatives": 45,
+        "fn_fraction": 0.6081081081081081
+      },
+      {
+        "class_id": 0,
+        "class_name": "crazing",
+        "band": "undefined",
+        "gt_boxes": 0,
+        "images": 0,
+        "evaluated_boxes": 0,
+        "false_negatives": null,
+        "fn_fraction": null
+      },
+      {
+        "class_id": 1,
+        "class_name": "inclusion",
+        "band": "low",
+        "gt_boxes": 59,
+        "images": 35,
+        "evaluated_boxes": 59,
+        "false_negatives": 14,
+        "fn_fraction": 0.23728813559322035
+      },
+      {
+        "class_id": 1,
+        "class_name": "inclusion",
+        "band": "other",
+        "gt_boxes": 95,
+        "images": 43,
+        "evaluated_boxes": 95,
+        "false_negatives": 18,
+        "fn_fraction": 0.18947368421052632
+      },
+      {
+        "class_id": 1,
+        "class_name": "inclusion",
+        "band": "undefined",
+        "gt_boxes": 0,
+        "images": 0,
+        "evaluated_boxes": 0,
+        "false_negatives": null,
+        "fn_fraction": null
+      },
+      {
+        "class_id": 2,
+        "class_name": "patches",
+        "band": "low",
+        "gt_boxes": 0,
+        "images": 0,
+        "evaluated_boxes": 0,
+        "false_negatives": null,
+        "fn_fraction": null
+      },
+      {
+        "class_id": 2,
+        "class_name": "patches",
+        "band": "other",
+        "gt_boxes": 120,
+        "images": 48,
+        "evaluated_boxes": 120,
+        "false_negatives": 5,
+        "fn_fraction": 0.041666666666666664
+      },
+      {
+        "class_id": 2,
+        "class_name": "patches",
+        "band": "undefined",
+        "gt_boxes": 0,
+        "images": 0,
+        "evaluated_boxes": 0,
+        "false_negatives": null,
+        "fn_fraction": null
+      },
+      {
+        "class_id": 3,
+        "class_name": "pitted_surface",
+        "band": "low",
+        "gt_boxes": 9,
+        "images": 8,
+        "evaluated_boxes": 9,
+        "false_negatives": 2,
+        "fn_fraction": 0.2222222222222222
+      },
+      {
+        "class_id": 3,
+        "class_name": "pitted_surface",
+        "band": "other",
+        "gt_boxes": 50,
+        "images": 38,
+        "evaluated_boxes": 50,
+        "false_negatives": 10,
+        "fn_fraction": 0.2
+      },
+      {
+        "class_id": 3,
+        "class_name": "pitted_surface",
+        "band": "undefined",
+        "gt_boxes": 2,
+        "images": 2,
+        "evaluated_boxes": 2,
+        "false_negatives": 0,
+        "fn_fraction": 0.0
+      },
+      {
+        "class_id": 4,
+        "class_name": "rolled-in_scale",
+        "band": "low",
+        "gt_boxes": 42,
+        "images": 30,
+        "evaluated_boxes": 42,
+        "false_negatives": 21,
+        "fn_fraction": 0.5
+      },
+      {
+        "class_id": 4,
+        "class_name": "rolled-in_scale",
+        "band": "other",
+        "gt_boxes": 50,
+        "images": 29,
+        "evaluated_boxes": 50,
+        "false_negatives": 25,
+        "fn_fraction": 0.5
+      },
+      {
+        "class_id": 4,
+        "class_name": "rolled-in_scale",
+        "band": "undefined",
+        "gt_boxes": 0,
+        "images": 0,
+        "evaluated_boxes": 0,
+        "false_negatives": null,
+        "fn_fraction": null
+      },
+      {
+        "class_id": 5,
+        "class_name": "scratches",
+        "band": "low",
+        "gt_boxes": 0,
+        "images": 0,
+        "evaluated_boxes": 0,
+        "false_negatives": null,
+        "fn_fraction": null
+      },
+      {
+        "class_id": 5,
+        "class_name": "scratches",
+        "band": "other",
+        "gt_boxes": 76,
+        "images": 45,
+        "evaluated_boxes": 76,
+        "false_negatives": 2,
+        "fn_fraction": 0.02631578947368421
+      },
+      {
+        "class_id": 5,
+        "class_name": "scratches",
+        "band": "undefined",
+        "gt_boxes": 0,
+        "images": 0,
+        "evaluated_boxes": 0,
+        "false_negatives": null,
+        "fn_fraction": null
+      }
+    ],
+    "false_positives": 255,
+    "false_negatives": 164,
+    "fp_with_same_class_iou_between_0_and_05": 156,
+    "fp_with_same_class_iou_ge_05": 51,
+    "cross_class_iou_ge_05_candidates": 3,
+    "overlap_count_note": "FP subsets can overlap; counts are diagnostics, not disjoint causal error categories."
+  },
+  "visual_review": [
+    {
+      "source": "crazing_109.jpg",
+      "evidence": "example_00_low_fn.png",
+      "observation": "Three crack GT regions missed amid textured steel; local-mean proxy cannot establish a visibility mechanism."
+    },
+    {
+      "source": "crazing_235.jpg",
+      "evidence": "example_04_other_fn.png",
+      "observation": "Crack GT misses also occur outside the low local-contrast bucket."
+    },
+    {
+      "source": "inclusion_182.jpg",
+      "evidence": "example_03_low_fn.png",
+      "observation": "A long predicted inclusion region overlaps multiple smaller GT regions; localization/grouping mismatch accompanies misses."
+    },
+    {
+      "source": "scratches_235.jpg",
+      "evidence": "example_08_fp.png",
+      "observation": "Multiple predicted boxes on horizontal bright traces, including repeated boxes and traces outside matched GT; not clean evidence of texture-only background hallucination."
+    },
+    {
+      "source": "inclusion_15.jpg",
+      "evidence": "example_09_fp.png",
+      "observation": "FP boxes overlap or extend inclusion structures; annotation granularity and localization remain possible explanations."
+    },
+    {
+      "source": "inclusion_234.jpg",
+      "evidence": "example_10_fp.png",
+      "observation": "FP inclusion boxes occur on visible dark streaks near GT; cannot assume all are pure background texture."
+    },
+    {
+      "source": "pitted_surface_165.jpg",
+      "evidence": "example_12_confusion.png",
+      "observation": "Predicted pitted surface overlaps a patch-labelled side region."
+    },
+    {
+      "source": "pitted_surface_208.jpg",
+      "evidence": "example_13_confusion.png",
+      "observation": "Patch and pitted-surface regions overlap spatially; one cross-class candidate is visible."
+    },
+    {
+      "source": "pitted_surface_87.jpg",
+      "evidence": "example_14_confusion.png",
+      "observation": "Inclusion prediction overlaps missed pitted-surface GT at left."
+    }
+  ],
+  "interpretation": "Within-class low/other FN rates are close, with sparse pitted low group and no low patches/scratches. Current evidence does not demonstrate that low contrast causes misses or that CLAHE addresses the dominant error source.",
+  "single_proposed_factor": {
+    "name": "train-only mean-centered random contrast",
+    "probability": 0.5,
+    "alpha_distribution": "Uniform(0.7,1.3)",
+    "formula": "I_new = uint8(round(clip(mu + alpha*(I-mu),0,255))); mu is per-image spatial grayscale mean, shared across replicated RGB channels",
+    "placement": "Training augmentation only, once per final training image after existing geometric/HSV operations and before tensor conversion. Preserve boxes and all baseline augmentations; no CLAHE.",
+    "validation_and_inference": "Unchanged original images and existing channel adaptation; no random contrast.",
+    "rng_note": "Use reproducibly seeded augmentation randomness; record exact implementation and worker behavior; avoid resetting global RNG.",
+    "hypothesis": "A small additional mean-centered contrast perturbation might improve val generalization, including faint defect sensitivity. This is a robustness hypothesis, not a proven explanation of baseline errors.",
+    "why_this_instead_of_clahe": "Evidence for a contrast-specific failure is weak; global deterministic CLAHE may amplify noise/texture and would require train/val/inference alignment. Train-only augmentation keeps deployed preprocessing unchanged.",
+    "baseline_interaction": "hsv_v=0.4 already changes brightness gain and absolute contrast; this adds a specifically mean-centered perturbation and must not be described as baseline having no contrast changes."
+  },
+  "comparison_freeze": {
+    "epochs": 100,
+    "seed": 42,
+    "batch": 16,
+    "imgsz": 320,
+    "optimizer": "AdamW",
+    "same_initial_weights": true,
+    "same_manifest_and_groups": true,
+    "same_other_training_config": true,
+    "same_evaluation_protocol": true,
+    "number_of_new_training_runs": 1
+  },
+  "selection_rule": "Compare both candidates on the identical frozen val protocol; use higher official val mAP50-95 as primary criterion, retain baseline on tie or deterioration. Report mAP50, fixed P/R/F1, within-class FN strata and FP diagnostics as secondary evidence; no extra search using test.",
+  "limitations": [
+    "Single seed cannot establish statistical significance.",
+    "Local mean contrast is not a validated causal visibility measure.",
+    "Any gain cannot automatically be called industrial robustness or texture suppression.",
+    "No test predictions or metrics were examined for this decision."
+  ]
+}

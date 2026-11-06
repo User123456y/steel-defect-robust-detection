@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.cache/
+runs/
+data/raw/
+data/processed/
+*.engine
+*.onnx
+*.zip
+models/yolo11n.pt

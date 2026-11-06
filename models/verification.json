@@ -1,0 +1,35 @@
+{
+  "historical_weights_sha256": "bac59f1d3c1b3e863b1e5c13b35b2744721624271bbc41f1dbd61ac6b3492082",
+  "public_weights_sha256": "09400f91dc6a76bbc101ed3307beb4ca7085cec327cb11aeb50b5c1f8d2948fa",
+  "state_dict_tensors": 499,
+  "all_tensors_bitwise_equal": true,
+  "cpu_output_bitwise_equal": true,
+  "inference_cases": [
+    "constant synthetic image",
+    "seed42 noise synthetic image",
+    "one validation image",
+    "one additional validation image with nonempty detection"
+  ],
+  "detection_counts": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "validation_image_sha256": "5278cd3695adbcbd7a16a7e4b2c6bc27f18095ab8a1e034d2b06c0fc42020eca",
+  "scope": "Packaging equivalence only; no training or dataset evaluation performed",
+  "metadata_changes": [
+    "relative train_args/model.args paths",
+    "training run name",
+    "git metadata removed"
+  ],
+  "torch": "2.8.0",
+  "raw_forward_bitwise_equal": true,
+  "raw_forward_shape": [
+    1,
+    10,
+    2100
+  ],
+  "raw_forward_max_abs_error": 0.0,
+  "additional_validation_image_sha256": "0fef5231d26c75256c723d862474768b95d71b5c0d7335a3f3112382b7baa86e"
+}

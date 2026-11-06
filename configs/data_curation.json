@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "reviewer": "Historical review record; reviewer identity omitted",
+  "reviewed_at": "2026-11-05 Asia/Shanghai",
+  "source_fingerprint": "10852c181ed0334ee297be794bb2b6042d7b4e41249243ffce557d6335c41894",
+  "source_archive_sha256": "cf04bb0b05d364f23e05031b191b20b908a0e5eb11466df74ee7fba98ec835d5",
+  "quarantine": [
+    {
+      "image": "IMAGES/patches_101.jpg",
+      "reason": "Identical pixels with conflicting box boundaries; isolate entire two-member group without choosing preferred labels."
+    },
+    {
+      "image": "IMAGES/patches_105.jpg",
+      "reason": "Identical pixels with conflicting box boundaries; isolate entire two-member group without choosing preferred labels."
+    }
+  ],
+  "groups": [
+    {
+      "images": [
+        "IMAGES/crazing_102.jpg",
+        "IMAGES/crazing_116.jpg",
+        "IMAGES/crazing_121.jpg",
+        "IMAGES/crazing_123.jpg",
+        "IMAGES/crazing_125.jpg",
+        "IMAGES/crazing_140.jpg",
+        "IMAGES/crazing_276.jpg",
+        "IMAGES/crazing_28.jpg",
+        "IMAGES/crazing_34.jpg",
+        "IMAGES/crazing_37.jpg",
+        "IMAGES/crazing_38.jpg",
+        "IMAGES/crazing_43.jpg",
+        "IMAGES/crazing_45.jpg",
+        "IMAGES/crazing_56.jpg",
+        "IMAGES/crazing_57.jpg",
+        "IMAGES/crazing_59.jpg",
+        "IMAGES/crazing_60.jpg",
+        "IMAGES/crazing_63.jpg",
+        "IMAGES/crazing_68.jpg",
+        "IMAGES/crazing_80.jpg",
+        "IMAGES/crazing_82.jpg",
+        "IMAGES/crazing_87.jpg",
+        "IMAGES/crazing_94.jpg",
+        "IMAGES/inclusion_168.jpg",
+        "IMAGES/inclusion_190.jpg",
+        "IMAGES/inclusion_20.jpg",
+        "IMAGES/inclusion_227.jpg",
+        "IMAGES/inclusion_229.jpg",
+        "IMAGES/inclusion_230.jpg",
+        "IMAGES/inclusion_232.jpg",
+        "IMAGES/inclusion_233.jpg",
+        "IMAGES/inclusion_236.jpg",
+        "IMAGES/inclusion_237.jpg",
+        "IMAGES/inclusion_238.jpg",
+        "IMAGES/inclusion_239.jpg",
+        "IMAGES/inclusion_241.jpg",
+        "IMAGES/inclusion_243.jpg",
+        "IMAGES/inclusion_244.jpg",
+        "IMAGES/inclusion_246.jpg",
+        "IMAGES/inclusion_247.jpg",
+        "IMAGES/inclusion_249.jpg",
+        "IMAGES/inclusion_250.jpg",
+        "IMAGES/inclusion_251.jpg",
+        "IMAGES/inclusion_253.jpg",
+        "IMAGES/inclusion_254.jpg",
+        "IMAGES/inclusion_255.jpg",
+        "IMAGES/inclusion_256.jpg",
+        "IMAGES/inclusion_257.jpg",
+        "IMAGES/inclusion_270.jpg",
+        "IMAGES/inclusion_271.jpg",
+        "IMAGES/inclusion_284.jpg",
+        "IMAGES/inclusion_286.jpg",
+        "IMAGES/inclusion_289.jpg",
+        "IMAGES/inclusion_296.jpg",
+        "IMAGES/inclusion_3.jpg",
+        "IMAGES/inclusion_79.jpg",
+        "IMAGES/inclusion_80.jpg",
+        "IMAGES/patches_172.jpg",
+        "IMAGES/patches_176.jpg",
+        "IMAGES/patches_190.jpg",
+        "IMAGES/pitted_surface_106.jpg",
+        "IMAGES/pitted_surface_107.jpg",
+        "IMAGES/pitted_surface_112.jpg",
+        "IMAGES/pitted_surface_117.jpg",
+        "IMAGES/pitted_surface_118.jpg",
+        "IMAGES/pitted_surface_126.jpg",
+        "IMAGES/pitted_surface_127.jpg",
+        "IMAGES/pitted_surface_128.jpg",
+        "IMAGES/pitted_surface_129.jpg",
+        "IMAGES/pitted_surface_13.jpg",
+        "IMAGES/pitted_surface_137.jpg",
+        "IMAGES/pitted_surface_139.jpg",
+        "IMAGES/pitted_surface_142.jpg",
+        "IMAGES/pitted_surface_145.jpg",
+        "IMAGES/pitted_surface_150.jpg",
+        "IMAGES/pitted_surface_151.jpg",
+        "IMAGES/pitted_surface_152.jpg",
+        "IMAGES/pitted_surface_153.jpg",
+        "IMAGES/pitted_surface_154.jpg",
+        "IMAGES/pitted_surface_194.jpg",
+        "IMAGES/pitted_surface_195.jpg",
+        "IMAGES/pitted_surface_198.jpg",
+        "IMAGES/pitted_surface_199.jpg",
+        "IMAGES/pitted_surface_200.jpg",
+        "IMAGES/pitted_surface_21.jpg",
+        "IMAGES/pitted_surface_217.jpg",
+        "IMAGES/pitted_surface_219.jpg",
+        "IMAGES/pitted_surface_22.jpg",
+        "IMAGES/pitted_surface_222.jpg",
+        "IMAGES/pitted_surface_224.jpg",
+        "IMAGES/pitted_surface_227.jpg",
+        "IMAGES/pitted_surface_235.jpg",
+        "IMAGES/pitted_surface_246.jpg",
+        "IMAGES/pitted_surface_252.jpg",
+        "IMAGES/pitted_surface_257.jpg",
+        "IMAGES/pitted_surface_265.jpg",
+        "IMAGES/pitted_surface_28.jpg",
+        "IMAGES/pitted_surface_280.jpg",
+        "IMAGES/pitted_surface_282.jpg",
+        "IMAGES/pitted_surface_285.jpg",
+        "IMAGES/pitted_surface_29.jpg",
+        "IMAGES/pitted_surface_299.jpg",
+        "IMAGES/pitted_surface_35.jpg",
+        "IMAGES/pitted_surface_36.jpg",
+        "IMAGES/pitted_surface_54.jpg",
+        "IMAGES/pitted_surface_58.jpg",
+        "IMAGES/pitted_surface_62.jpg",
+        "IMAGES/pitted_surface_81.jpg",
+        "IMAGES/pitted_surface_88.jpg",
+        "IMAGES/scratches_103.jpg",
+        "IMAGES/scratches_129.jpg",
+        "IMAGES/scratches_21.jpg",
+        "IMAGES/scratches_22.jpg",
+        "IMAGES/scratches_263.jpg",
+        "IMAGES/scratches_28.jpg",
+        "IMAGES/scratches_33.jpg",
+        "IMAGES/scratches_43.jpg",
+        "IMAGES/scratches_44.jpg",
+        "IMAGES/scratches_49.jpg",
+        "IMAGES/scratches_63.jpg",
+        "IMAGES/scratches_64.jpg",
+        "IMAGES/scratches_74.jpg",
+        "IMAGES/scratches_75.jpg",
+        "IMAGES/scratches_84.jpg",
+        "IMAGES/scratches_86.jpg",
+        "IMAGES/scratches_87.jpg",
+        "IMAGES/scratches_89.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_235.jpg",
+        "IMAGES/crazing_8.jpg",
+        "IMAGES/inclusion_182.jpg",
+        "IMAGES/inclusion_214.jpg",
+        "IMAGES/inclusion_240.jpg",
+        "IMAGES/inclusion_52.jpg",
+        "IMAGES/inclusion_54.jpg",
+        "IMAGES/pitted_surface_120.jpg",
+        "IMAGES/pitted_surface_18.jpg",
+        "IMAGES/pitted_surface_66.jpg",
+        "IMAGES/pitted_surface_87.jpg",
+        "IMAGES/pitted_surface_94.jpg",
+        "IMAGES/scratches_106.jpg",
+        "IMAGES/scratches_255.jpg",
+        "IMAGES/scratches_257.jpg",
+        "IMAGES/scratches_62.jpg",
+        "IMAGES/scratches_73.jpg",
+        "IMAGES/scratches_76.jpg",
+        "IMAGES/scratches_80.jpg",
+        "IMAGES/scratches_98.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_217.jpg",
+        "IMAGES/pitted_surface_17.jpg",
+        "IMAGES/rolled-in_scale_101.jpg",
+        "IMAGES/rolled-in_scale_128.jpg",
+        "IMAGES/rolled-in_scale_139.jpg",
+        "IMAGES/rolled-in_scale_147.jpg",
+        "IMAGES/rolled-in_scale_2.jpg",
+        "IMAGES/rolled-in_scale_34.jpg",
+        "IMAGES/rolled-in_scale_63.jpg",
+        "IMAGES/rolled-in_scale_69.jpg",
+        "IMAGES/rolled-in_scale_74.jpg",
+        "IMAGES/rolled-in_scale_76.jpg",
+        "IMAGES/rolled-in_scale_77.jpg",
+        "IMAGES/rolled-in_scale_81.jpg",
+        "IMAGES/rolled-in_scale_82.jpg",
+        "IMAGES/rolled-in_scale_94.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_205.jpg",
+        "IMAGES/crazing_262.jpg",
+        "IMAGES/crazing_269.jpg",
+        "IMAGES/crazing_3.jpg",
+        "IMAGES/crazing_90.jpg",
+        "IMAGES/inclusion_197.jpg",
+        "IMAGES/inclusion_215.jpg",
+        "IMAGES/patches_29.jpg",
+        "IMAGES/patches_97.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_213.jpg",
+        "IMAGES/pitted_surface_4.jpg",
+        "IMAGES/pitted_surface_5.jpg",
+        "IMAGES/pitted_surface_6.jpg",
+        "IMAGES/pitted_surface_68.jpg",
+        "IMAGES/pitted_surface_8.jpg",
+        "IMAGES/rolled-in_scale_11.jpg",
+        "IMAGES/rolled-in_scale_33.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/pitted_surface_245.jpg",
+        "IMAGES/rolled-in_scale_148.jpg",
+        "IMAGES/scratches_111.jpg",
+        "IMAGES/scratches_113.jpg",
+        "IMAGES/scratches_118.jpg",
+        "IMAGES/scratches_133.jpg",
+        "IMAGES/scratches_146.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/pitted_surface_218.jpg",
+        "IMAGES/pitted_surface_221.jpg",
+        "IMAGES/scratches_115.jpg",
+        "IMAGES/scratches_24.jpg",
+        "IMAGES/scratches_26.jpg",
+        "IMAGES/scratches_36.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_210.jpg",
+        "IMAGES/crazing_211.jpg",
+        "IMAGES/crazing_242.jpg",
+        "IMAGES/crazing_289.jpg",
+        "IMAGES/inclusion_30.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_195.jpg",
+        "IMAGES/pitted_surface_60.jpg",
+        "IMAGES/rolled-in_scale_58.jpg",
+        "IMAGES/rolled-in_scale_78.jpg",
+        "IMAGES/rolled-in_scale_99.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_273.jpg",
+        "IMAGES/inclusion_259.jpg",
+        "IMAGES/inclusion_281.jpg",
+        "IMAGES/pitted_surface_91.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_103.jpg",
+        "IMAGES/inclusion_278.jpg",
+        "IMAGES/inclusion_49.jpg",
+        "IMAGES/pitted_surface_123.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_2.jpg",
+        "IMAGES/inclusion_274.jpg",
+        "IMAGES/scratches_167.jpg",
+        "IMAGES/scratches_69.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_200.jpg",
+        "IMAGES/inclusion_55.jpg",
+        "IMAGES/pitted_surface_25.jpg",
+        "IMAGES/scratches_81.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_39.jpg",
+        "IMAGES/inclusion_189.jpg",
+        "IMAGES/inclusion_73.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_248.jpg",
+        "IMAGES/inclusion_252.jpg",
+        "IMAGES/inclusion_39.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_276.jpg",
+        "IMAGES/pitted_surface_75.jpg",
+        "IMAGES/scratches_232.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_46.jpg",
+        "IMAGES/inclusion_56.jpg",
+        "IMAGES/pitted_surface_124.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/scratches_116.jpg",
+        "IMAGES/scratches_119.jpg",
+        "IMAGES/scratches_120.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_104.jpg",
+        "IMAGES/crazing_85.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_156.jpg",
+        "IMAGES/crazing_47.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_176.jpg",
+        "IMAGES/crazing_280.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_184.jpg",
+        "IMAGES/crazing_284.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_193.jpg",
+        "IMAGES/crazing_194.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_195.jpg",
+        "IMAGES/crazing_218.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_204.jpg",
+        "IMAGES/patches_145.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_283.jpg",
+        "IMAGES/scratches_117.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/crazing_29.jpg",
+        "IMAGES/pitted_surface_42.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_1.jpg",
+        "IMAGES/pitted_surface_130.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_102.jpg",
+        "IMAGES/scratches_288.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_140.jpg",
+        "IMAGES/inclusion_141.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_183.jpg",
+        "IMAGES/scratches_99.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_245.jpg",
+        "IMAGES/pitted_surface_256.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_268.jpg",
+        "IMAGES/scratches_20.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_288.jpg",
+        "IMAGES/inclusion_290.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/inclusion_291.jpg",
+        "IMAGES/scratches_70.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/patches_130.jpg",
+        "IMAGES/patches_132.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/pitted_surface_171.jpg",
+        "IMAGES/pitted_surface_292.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/pitted_surface_51.jpg",
+        "IMAGES/pitted_surface_84.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/pitted_surface_56.jpg",
+        "IMAGES/scratches_199.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/scratches_136.jpg",
+        "IMAGES/scratches_165.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    },
+    {
+      "images": [
+        "IMAGES/scratches_178.jpg",
+        "IMAGES/scratches_185.jpg"
+      ],
+      "reason": "Visually reviewed component; conservative same-split grouping of all dHash<=4 candidates, including possible false positives; not a claim of identical source."
+    }
+  ],
+  "limitations": [
+    "dHash is a heuristic and cannot exclude all related images outside candidates.",
+    "Conservative grouping contains false positives and may alter split proportions; all acquisition categories must remain represented.",
+    "Capture batch/coil identifiers unavailable; independent-source generalization is not established.",
+    "Third-party mirror; official byte equivalence and commercial/redistribution license not verified; official requested citations recorded in source report.",
+    "Two conflicting duplicate images are quarantined from every experiment; raw source remains unchanged."
+  ]
+}

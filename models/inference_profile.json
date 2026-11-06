@@ -1,0 +1,9 @@
+{
+  "weights_sha256": "09400f91dc6a76bbc101ed3307beb4ca7085cec327cb11aeb50b5c1f8d2948fa",
+  "imgsz": 320,
+  "confidence": 0.4,
+  "nms_iou": 0.7,
+  "preprocessing": "none",
+  "model_label": "最终模型：对照方案·seed42",
+  "historical_weights_sha256": "bac59f1d3c1b3e863b1e5c13b35b2744721624271bbc41f1dbd61ac6b3492082"
+}
